@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>References</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            text-align: center;
+            color: #0073e6;
+        }
+        h2 {
+            margin-top: 30px;
+            color: #00509e;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .source-title {
+            font-weight: bold;
+        }
+        .source-details {
+            font-style: italic;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Reference List</h1>
+
+    <!-- Section for Book References -->
+    <h2>Books</h2>
+    <ul>
+        <li>
+            <span class="source-title">Smith, J.</span>
+            <span class="source-details">(2020). Understanding Web Development. New York, NY: Tech Publishers.</span>
+        </li>
+        <li>
+            <span class="source-title">Doe, A.</span>
+            <span class="source-details">(2018). Introduction to Programming. Boston, MA: Learning Press.</span>
+        </li>
+    </ul>
+
+    <!-- Section for Website References -->
+    <h2>Websites</h2>
+    <ul>
+        <li>
+            <span class="source-title">W3Schools.</span>
+            <span class="source-details">(2024). HTML Tutorial. Retrieved from <a href="https://www.w3schools.com/html/">https://www.w3schools.com/html/</a></span>
+        </li>
+        <li>
+            <span class="source-title">Mozilla Developer Network (MDN).</span>
+            <span class="source-details">(2024). CSS Basics. Retrieved from <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics">https://developer.mozilla.org</a></span>
+        </li>
+    </ul>
+
+    <!-- Section for Journal Articles -->
+    <h2>Journal Articles</h2>
+    <ul>
+        <li>
+            <span class="source-title">Taylor, R.</span>
+            <span class="source-details">(2019). Advances in Web Technology. <i>Journal of Computer Science</i>, 15(2), 123-135.</span>
+        </li>
+        <li>
+            <span class="source-title">Johnson, L.</span>
+            <span class="source-details">(2022). The Impact of Mobile Development. <i>International Journal of Technology</i>, 18(4), 89-102.</span>
+        </li>
+    </ul>
+
+    <!-- Section for Other References -->
+    <h2>Others</h2>
+    <ul>
+        <li>
+            <span class="source-title">Google Developers.</span>
+            <span class="source-details">(2024). Android Studio Guide. Retrieved from <a href="https://developer.android.com/studio/guide">https://developer.android.com/studio/guide</a></span>
+        </li>
+        <li>
+            <span class="source-title">Expo Documentation.</span>
+            <span class="source-details">(2024). Getting Started with Expo. Retrieved from <a href="https://docs.expo.dev/">https://docs.expo.dev/</a></span>
+        </li>
+    </ul>
+
+</body>
+</html>
